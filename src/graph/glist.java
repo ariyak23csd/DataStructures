@@ -17,7 +17,7 @@ public class glist {
     }
 
     public void display() {
-        System.out.println("Adjacency List:");
+        System.out.println("Adjacency List is given below:");
         for (int i = 0; i < li.size(); i++) {
             System.out.print(i + " -> ");
             for (int node : li.get(i)) {
